@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400&subset=vietnamese');
-:root {
+/* :root {
     --gradient: linear-gradient(
       45deg,
       #845ec2
@@ -9,25 +9,26 @@
       #ffc75f
       #f9f871
     );
-}
+} */
 body {
   margin: 0;
   padding: 0;
   font-family: 'Roboto', sans-serif;
-  background-color: #f8f8f8;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   min-height: 100vh;
   color: rgba(0, 0, 0, 0.653);
+  /* background-color: #f8f8f8;
   background : linear-gradient(45deg,#845ec2,#d65db1,#ff6f91,#ff9671,#ffc75f,#f9f871);
   background-size: 800%;
-  animation: bg-animation 10s ease-in-out infinite;
+  animation: bg-animation 10s ease-in-out infinite; */
+  background-image: url("img/background.jpg");
+  background-size: 100%;
   text-shadow: 0 .2px .3px rgba(0, 0, 0, 0.353);
-
 }
-@keyframes bg-animation{
+/* @keyframes bg-animation{
   0% {background-position: 0 50%;
   }
 
@@ -39,10 +40,10 @@ body {
 }
 img {
   max-width: 100%;
-}
+} */
 
 .box {
-  background-color: white;
+  background-color: rgba(255, 255, 255, .5);
   box-shadow: 0 3px 6px rgba(0,0,0, .1);
   padding: 1rem;
   width: 60%;
