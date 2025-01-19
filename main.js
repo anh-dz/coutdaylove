@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function() {
   // var min = document.querySelector('.min');
   // var second = document.querySelector('.second');
 
-  var startDate = new Date(2022, 11, 29); //Month-=1
+  var startDate = new Date(2024, 8, 2); //Month-=1
   var day_count = Math.floor((new Date - startDate)/86400000);
   if (day_count <= 0)
     day_count = "00 DAY"
